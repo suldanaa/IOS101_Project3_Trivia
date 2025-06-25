@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YPe-bJ-xO8">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia View Controller-->
+        <scene sceneID="Loe-bC-qfM">
+            <objects>
+                <viewController id="YPe-bJ-xO8" customClass="TriviaViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FKd-KF-AcW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question: 1/3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXD-2H-xfN">
+                                <rect key="frame" x="133.33333333333334" y="138" width="126.66666666666666" height="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FD-Xu-lKh">
+                                <rect key="frame" x="16" y="218.66666666666663" width="361" height="256"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="7v6-xM-G3l"/>
+                                    <constraint firstAttribute="width" constant="361" id="Acg-hO-p6B"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="What was the first weapon pack for 'PAYDAY'?">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="35" name="HoeflerText-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Myv-8t-S4S">
+                                <rect key="frame" x="38" y="181" width="317.33333333333331" height="29.333333333333343"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Entertainment: Video Games">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="29" name="HoeflerText-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="vjC-LB-ndl">
+                                <rect key="frame" x="23" y="494.66666666666674" width="347" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Vpe-qG-lz5">
+                                        <rect key="frame" x="0.0" y="0.0" width="347" height="51"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="J45-CJ-O81"/>
+                                            <constraint firstAttribute="width" constant="347" id="nsQ-H1-c0w"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="j">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonOne:" destination="YPe-bJ-xO8" eventType="touchUpInside" id="zBC-vt-shq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dfi-d7-quh">
+                                        <rect key="frame" x="0.0" y="62.999999999999943" width="347" height="51"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="LXp-ei-goc"/>
+                                            <constraint firstAttribute="width" constant="347" id="dg5-So-bgX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="j">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTwo:" destination="YPe-bJ-xO8" eventType="touchUpInside" id="zSK-nA-Yeb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jrO-OU-3gH">
+                                        <rect key="frame" x="0.0" y="125.99999999999994" width="347" height="51"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="347" id="TtX-NA-g8c"/>
+                                            <constraint firstAttribute="height" constant="51" id="x5z-n5-sv0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="j">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonThree:" destination="YPe-bJ-xO8" eventType="touchUpInside" id="D4b-Ve-4Lr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hS5-D4-mtc">
+                                        <rect key="frame" x="0.0" y="188.99999999999994" width="347" height="51"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="347" id="Xcg-0d-AyG"/>
+                                            <constraint firstAttribute="height" constant="51" id="gin-dJ-A67"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="j">
+                                            <color key="titleColor" red="0.062697285350000007" green="0.062697285350000007" blue="0.062697285350000007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonFour:" destination="YPe-bJ-xO8" eventType="touchUpInside" id="lrW-PP-lt6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwz-b6-K5M">
+                                <rect key="frame" x="139.66666666666666" y="754.66666666666663" width="113.66666666666666" height="29.333333333333371"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tww-vw-vwt"/>
+                        <color key="backgroundColor" red="0.062697285353535359" green="0.062697285353535359" blue="0.062697285353535359" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Myv-8t-S4S" firstAttribute="top" secondItem="dXD-2H-xfN" secondAttribute="bottom" constant="20" id="DvQ-fw-lOT"/>
+                            <constraint firstItem="Jwz-b6-K5M" firstAttribute="centerX" secondItem="vjC-LB-ndl" secondAttribute="centerX" id="Ivi-69-N9O"/>
+                            <constraint firstItem="vjC-LB-ndl" firstAttribute="centerX" secondItem="8FD-Xu-lKh" secondAttribute="centerX" id="QPP-2u-rXI"/>
+                            <constraint firstItem="Myv-8t-S4S" firstAttribute="centerX" secondItem="FKd-KF-AcW" secondAttribute="centerX" id="XGX-gM-Obl"/>
+                            <constraint firstItem="dXD-2H-xfN" firstAttribute="top" secondItem="Tww-vw-vwt" secondAttribute="top" constant="20" id="h9T-uc-Mbl"/>
+                            <constraint firstItem="8FD-Xu-lKh" firstAttribute="centerX" secondItem="Myv-8t-S4S" secondAttribute="centerX" id="llh-IA-KYY"/>
+                            <constraint firstItem="dXD-2H-xfN" firstAttribute="centerX" secondItem="FKd-KF-AcW" secondAttribute="centerX" id="luj-DN-f0b"/>
+                            <constraint firstItem="8FD-Xu-lKh" firstAttribute="top" secondItem="Myv-8t-S4S" secondAttribute="bottom" constant="8.3333333333333428" id="nva-lX-fWY"/>
+                            <constraint firstItem="vjC-LB-ndl" firstAttribute="top" secondItem="8FD-Xu-lKh" secondAttribute="bottom" constant="20" id="pux-FF-dpZ"/>
+                            <constraint firstItem="Jwz-b6-K5M" firstAttribute="bottom" secondItem="Tww-vw-vwt" secondAttribute="bottom" id="uCw-aW-Ce7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Question" destination="8FD-Xu-lKh" id="as6-O6-uUx"/>
+                        <outlet property="buttonFourUI" destination="hS5-D4-mtc" id="7Sa-cH-pMK"/>
+                        <outlet property="buttonOneUI" destination="Vpe-qG-lz5" id="mNT-XK-ORv"/>
+                        <outlet property="buttonThreeUI" destination="jrO-OU-3gH" id="XZb-2d-lk6"/>
+                        <outlet property="buttonTwoUI" destination="dfi-d7-quh" id="YgI-Cd-61v"/>
+                        <outlet property="questionCategory" destination="Myv-8t-S4S" id="P16-XK-1Fe"/>
+                        <outlet property="questionCounter" destination="dXD-2H-xfN" id="dq3-Eg-w0G"/>
+                        <outlet property="screenScore" destination="Jwz-b6-K5M" id="2Y0-jr-KLj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDL-nf-KEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-526" y="-46"/>
+        </scene>
+    </scenes>
+</document>
