@@ -35,7 +35,7 @@ class TriviaViewController: UIViewController {
             if  title == createMockData()[0].correctAns ||
                     title == createMockData()[1].correctAns ||
                     title == createMockData()[2].correctAns{
-                if currentQuestion < limit {
+                if currentQuestion <= limit {
                     score+=1
                 }
                 screenScore.text = "Score: \(score)"
@@ -53,7 +53,7 @@ class TriviaViewController: UIViewController {
             if  title == createMockData()[0].correctAns ||
                 title == createMockData()[1].correctAns ||
                 title == createMockData()[2].correctAns{
-                if currentQuestion < limit {
+                if currentQuestion <= limit {
                     score+=1
                 }
                 screenScore.text = "Score: \(score)"
@@ -70,7 +70,7 @@ class TriviaViewController: UIViewController {
             if  title == createMockData()[0].correctAns ||
                 title == createMockData()[1].correctAns ||
                 title == createMockData()[2].correctAns{
-                if currentQuestion < limit {
+                if currentQuestion <= limit {
                     score+=1
                 }
                 screenScore.text = "Score: \(score)"
@@ -87,7 +87,7 @@ class TriviaViewController: UIViewController {
             if  title == createMockData()[0].correctAns ||
                 title == createMockData()[1].correctAns ||
                 title == createMockData()[2].correctAns{
-                if currentQuestion < limit {
+                if currentQuestion <= limit {
                     score+=1
                 }
 //                screenScore.text = "Score: \(score)"
