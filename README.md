@@ -1,4 +1,4 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *Trivia*
 
 Submitted by: **Your Name Here**
 
@@ -34,7 +34,7 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## Notes
 
-Some challenges I had were 
+I had a lot of challenges in this project. Aside from connecting my code to my viewport, and other things that I could reference the lab for, I had some issues when it came to the constraints and how they sometimes go all over the place if you add something without assessing the warnings. I also had problems with the font colors, sometimes the view would show my default text and not what I programmed the program to present and I found out it was because I put the style of text to attributed without returning it back to plain. I also had an issue where I moved my files from one place to another and couldn't reopen the project, luckily this happened before I saved it to GitHub. I also had a hard time trying to piece together how everything fit in with eachother since everyone was so heavily connected, like the question number, the score, the options, the correct answer, all of it. I ended up needing to think the entire project out first before trying to write any code. 
 ## License
 
     Copyright [yyyy] [name of copyright owner]
